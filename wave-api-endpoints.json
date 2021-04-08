@@ -1,0 +1,445 @@
+{
+	"_type": "export",
+	"__export_format": 3,
+	"__export_date": "2018-06-28T16:57:00.098Z",
+	"__export_source": "insomnia.desktop.app:v5.16.6",
+	"resources": [
+		{
+			"_id": "wrk_a4cd1293f64a4bcb97ab5c88dc0a6483",
+			"created": 1529770468805,
+			"description": "",
+			"modified": 1529770468805,
+			"name": "Wave API Endpoints",
+			"parentId": null,
+			"_type": "workspace"
+		},
+		{
+			"_id": "env_0b55301043504f2cb0649f4fb9852ecd",
+			"color": null,
+			"created": 1529770468836,
+			"data": {},
+			"isPrivate": false,
+			"modified": 1530204707085,
+			"name": "New Environment",
+			"parentId": "wrk_a4cd1293f64a4bcb97ab5c88dc0a6483",
+			"_type": "environment"
+		},
+		{
+			"_id": "jar_73b61c9d6ee749d29eedef37fefd33fa",
+			"cookies": [
+				{
+					"creation": "2018-06-24T01:41:49.052Z",
+					"domain": "wave.test",
+					"expires": "2018-07-05T15:16:10.000Z",
+					"hostOnly": true,
+					"id": "0166976864499937",
+					"key": "XSRF-TOKEN",
+					"lastAccessed": "2018-06-28T16:37:10.471Z",
+					"maxAge": 599940,
+					"path": "/",
+					"value": "eyJpdiI6IjZ6RUw4bmlrVmJuSlNvZm51d0JlUGc9PSIsInZhbHVlIjoiaFY2WXlKV01OM29IeWt4OGJIbWlKTUc0bWxvRWRpQitGa1JuT0lITTlEU3ZvdjRVRjNDK3FaZ1JldkJUQWpLTCtFWFpmeUo1SVZ4Wms0RGdQQ01iWEE9PSIsIm1hYyI6ImMzZjc3ZjVkNmQ0Y2IzNGE1MjM2MWExODAwNDc3MTFkYWJjNTc0YmJhYzZkMDRiMDNkMDY5MzAwMDUxOWE4YTIifQ%3D%3D"
+				},
+				{
+					"creation": "2018-06-24T01:41:49.053Z",
+					"domain": "wave.test",
+					"expires": "2018-07-05T15:16:10.000Z",
+					"hostOnly": true,
+					"httpOnly": true,
+					"id": "40292802000689165",
+					"key": "wave_session",
+					"lastAccessed": "2018-06-28T16:37:10.471Z",
+					"maxAge": 599940,
+					"path": "/",
+					"value": "eyJpdiI6IkVDRVpaeXdLcFVBRUNqemxBeVBJNFE9PSIsInZhbHVlIjoibHlPT1BPNmhrQmRrcytYWWk5OVV6WVliOWp0RkpNVmdcL09BQ1NDUytzcjc5blFBa2JPV2ZrUzZTUWQ2MTFIekhQZHIraWM3aURDUGxUOGJWSm5vVHhnPT0iLCJtYWMiOiIzMjI1MmYyNzQ5MDAyYjNiMTA3MzFlMTE5YTJiZThiNjM1NTJkZWQ3NmRjYTQ5Nzc0M2E2Y2JkMGE2M2FkNGIyIn0%3D"
+				}
+			],
+			"created": 1529770468899,
+			"modified": 1530203830471,
+			"name": "Default Jar",
+			"parentId": "wrk_a4cd1293f64a4bcb97ab5c88dc0a6483",
+			"_type": "cookie_jar"
+		},
+		{
+			"_id": "fld_61126581f7844f5293a006572860751a",
+			"created": 1529770490228,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1529770490228,
+			"modified": 1530203914217,
+			"name": "Wave Authentication",
+			"parentId": "wrk_a4cd1293f64a4bcb97ab5c88dc0a6483",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_6aa779130b3049b5bf87e51c00098251",
+			"created": 1530025653751,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1530025653751,
+			"modified": 1530025653751,
+			"name": "Wave Endpoints",
+			"parentId": "wrk_a4cd1293f64a4bcb97ab5c88dc0a6483",
+			"_type": "request_group"
+		},
+		{
+			"_id": "req_f4f3c821f38d49819f19874fcfed47bb",
+			"authentication": {
+				"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC93YXZlLnRlc3RcL2FwaVwvdG9rZW4iLCJpYXQiOjE1MzAyMDQzMDMsImV4cCI6MTUzMDIwNzkwMywibmJmIjoxNTMwMjA0MzAzLCJqdGkiOiJ6M1hyaTdCaTBlMHVOUWFhIiwic3ViIjoxLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.dqH1mEP_nVtoTMSfbsy7JiJqYLxX4OGpWm0SqRjEODQ",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1530203952132,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529770490178,
+			"method": "GET",
+			"modified": 1530204948801,
+			"name": "Authenticated User",
+			"parameters": [],
+			"parentId": "wrk_a4cd1293f64a4bcb97ab5c88dc0a6483",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/user",
+			"_type": "request"
+		},
+		{
+			"_id": "env_ba8e74edcdb541d8ba3cc87ebef0b7cc",
+			"color": "#7d69cb",
+			"created": 1530204744903,
+			"data": {
+				"base_url": "http://wave.test"
+			},
+			"isPrivate": false,
+			"modified": 1530204864632,
+			"name": "Development",
+			"parentId": "env_0b55301043504f2cb0649f4fb9852ecd",
+			"_type": "environment"
+		},
+		{
+			"_id": "req_cd22de2d08244fc69d0620452f0a5fef",
+			"authentication": {
+				"disabled": false,
+				"password": "",
+				"type": "ntlm",
+				"username": ""
+			},
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"created": 1529770630228,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_f060e5f8546640cd9250e4eeef8b6a45",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529770630228,
+			"method": "POST",
+			"modified": 1530204929103,
+			"name": "Login",
+			"parameters": [
+				{
+					"disabled": false,
+					"id": "pair_17e58c0d2c8d4dd48849391cdf359cb5",
+					"name": "email",
+					"value": "admin@admin.com"
+				},
+				{
+					"disabled": false,
+					"id": "pair_56dc0172d9d14100b93f4f8a1009fa05",
+					"name": "password",
+					"value": "password"
+				}
+			],
+			"parentId": "fld_61126581f7844f5293a006572860751a",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/login",
+			"_type": "request"
+		},
+		{
+			"_id": "req_409f0ba81a1b4f5d8e613edddd62c3e6",
+			"authentication": {},
+			"body": {},
+			"created": 1529898277868,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529792417486.5,
+			"method": "POST",
+			"modified": 1530204915240,
+			"name": "API Token",
+			"parameters": [
+				{
+					"id": "pair_5f7e1c14c1fe4992be71cdf7b7a90b59",
+					"name": "key",
+					"value": "z9dHdUe1QxEvk9rlhgViZXvKrM3Sa9Cuh1vd8oAYAWUppadh2ko5CCLWz22s"
+				}
+			],
+			"parentId": "fld_61126581f7844f5293a006572860751a",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/token",
+			"_type": "request"
+		},
+		{
+			"_id": "req_0e0a2160e05d42f69439c8cbccc753b6",
+			"authentication": {
+				"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC93YXZlLnRlc3RcL2FwaVwvbG9naW4iLCJpYXQiOjE1MzAwMjc3NzksImV4cCI6MTUzMDAzMTM3OSwibmJmIjoxNTMwMDI3Nzc5LCJqdGkiOiJwUzJvM29LZVNZTEFpUkZjIiwic3ViIjoxLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.uOdniNPXNT-XWyGlenetBjpUcki705QPfM3BzOXfhdM",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1530026892027,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529770630178,
+			"method": "POST",
+			"modified": 1530204934580,
+			"name": "Logout",
+			"parameters": [],
+			"parentId": "fld_61126581f7844f5293a006572860751a",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/logout",
+			"_type": "request"
+		},
+		{
+			"_id": "req_6b927d11af554ebe81c83d580ea3d6a8",
+			"authentication": {
+				"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC93YXZlLnRlc3RcL2FwaVwvbG9naW4iLCJpYXQiOjE1MzAwMjY5NDQsImV4cCI6MTUzMDAzMDU0NCwibmJmIjoxNTMwMDI2OTQ0LCJqdGkiOiJYTFNSa3lWcXBVUmpZMVptIiwic3ViIjoxLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.lMasPnUk1keooo64s38EY151GeOXMQTJIKUKxctdoCY",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1530027044339,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529781523857.25,
+			"method": "POST",
+			"modified": 1530204920810,
+			"name": "Refresh",
+			"parameters": [],
+			"parentId": "fld_61126581f7844f5293a006572860751a",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/refresh",
+			"_type": "request"
+		},
+		{
+			"_id": "req_1934855b72944a5c84559b824634916b",
+			"authentication": {},
+			"body": {},
+			"created": 1530028172776,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529770630128,
+			"method": "POST",
+			"modified": 1530204940015,
+			"name": "Register",
+			"parameters": [
+				{
+					"id": "pair_cd787e08893c4cd1b5ec572240f40c2d",
+					"name": "name",
+					"value": "Mike Jones"
+				},
+				{
+					"id": "pair_8f864b705b9844268cb9876b8f67cd5b",
+					"name": "username",
+					"value": "mikejones"
+				},
+				{
+					"id": "pair_6910d13cbd8e432899db8c8e98dd2e48",
+					"name": "email",
+					"value": "mike@gmail.com"
+				},
+				{
+					"id": "pair_0d6ba3fb5c1d4281990b2c76e6a9c02f",
+					"name": "password",
+					"value": "password"
+				}
+			],
+			"parentId": "fld_61126581f7844f5293a006572860751a",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/register",
+			"_type": "request"
+		},
+		{
+			"_id": "req_137c59053e85421395f9c098f56a9601",
+			"authentication": {
+				"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC93YXZlLnRlc3RcL2FwaVwvdG9rZW4iLCJpYXQiOjE1MzAyMDM4MzQsImV4cCI6MTUzMDIwNzQzNCwibmJmIjoxNTMwMjAzODM0LCJqdGkiOiJodk5EdlpBQUxlNjhlZXRhIiwic3ViIjoxLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.3rZkyKUInZUwnqfRH_vSeiCbUmSpVILWFrgIVQXQfYM",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1529814204745,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529898071989.5,
+			"method": "GET",
+			"modified": 1530204874631,
+			"name": "Browse Posts",
+			"parameters": [],
+			"parentId": "fld_6aa779130b3049b5bf87e51c00098251",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/posts",
+			"_type": "request"
+		},
+		{
+			"_id": "req_4e80c7dd136542c3ad2a17e1a2b751f5",
+			"authentication": {
+				"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC93YXZlLnRlc3RcL2FwaVwvdG9rZW4iLCJpYXQiOjE1MzAxNjU2NTYsImV4cCI6MTUzMDE2OTI1NiwibmJmIjoxNTMwMTY1NjU2LCJqdGkiOiIwSngwMTFZRlpXdlJaeTVUIiwic3ViIjoxLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.K4OjbqbA697QJf2fchKH2qJtT5ZmY0rp5F1HeFg2tXk",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1530077169715,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529845244738,
+			"method": "GET",
+			"modified": 1530204888184,
+			"name": "Read Post",
+			"parameters": [],
+			"parentId": "fld_6aa779130b3049b5bf87e51c00098251",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/posts/5",
+			"_type": "request"
+		},
+		{
+			"_id": "req_b58d879e977a4120a01a442aea9697fa",
+			"authentication": {
+				"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC93YXZlLnRlc3RcL2FwaVwvdG9rZW4iLCJpYXQiOjE1MzAxNjU2NTYsImV4cCI6MTUzMDE2OTI1NiwibmJmIjoxNTMwMTY1NjU2LCJqdGkiOiIwSngwMTFZRlpXdlJaeTVUIiwic3ViIjoxLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.K4OjbqbA697QJf2fchKH2qJtT5ZmY0rp5F1HeFg2tXk",
+				"type": "bearer"
+			},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"title\": \"Rad New Title\"\n}"
+			},
+			"created": 1530080418854,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_4742f5e8029049508dcc64833218e06a",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529818831112.25,
+			"method": "PUT",
+			"modified": 1530204894126,
+			"name": "Edit Post",
+			"parameters": [],
+			"parentId": "fld_6aa779130b3049b5bf87e51c00098251",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/posts/10",
+			"_type": "request"
+		},
+		{
+			"_id": "req_6cba929767a8456b847fe75b1018650b",
+			"authentication": {
+				"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC93YXZlLnRlc3RcL2FwaVwvdG9rZW4iLCJpYXQiOjE1MzAxNjY0OTQsImV4cCI6MTUzMDE3MDA5NCwibmJmIjoxNTMwMTY2NDk0LCJqdGkiOiJHelBmSUxOVlNoT2hJMzBDIiwic3ViIjoxLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.NjLnoalDhFaNRBFmBFateo5RTi-3ZlA2ZlbmtNW9uXM",
+				"type": "bearer"
+			},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{ \n\t\"author_id\" : 1,\n\t\"category_id\" : 1,\n\t\"title\" : \"My Awesome Title\",\n\t\"body\" : \"<h2>My Awesome Post</h2><p>Hey there, this is an example of howo to use the Wave API to insert a sample post using the built-in API</p><p>Thanks for checkout out the API sample\",\n\t\"image\" : \"posts/March2018/sample-image.png\",\n\t\"slug\" : \"awesome-post\",\n\t\"featured\" : 0,\n\t\"status\" : \"PUBLISHED\"\n}"
+			},
+			"created": 1530146770851,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_077ed211ac174d5ca8919bf87648f6a6",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529805624299.375,
+			"method": "POST",
+			"modified": 1530204902318,
+			"name": "Add Post",
+			"parameters": [],
+			"parentId": "fld_6aa779130b3049b5bf87e51c00098251",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/posts",
+			"_type": "request"
+		},
+		{
+			"_id": "req_4050c8b67c054fb6a30507a8fa3503c0",
+			"authentication": {
+				"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC93YXZlLnRlc3RcL2FwaVwvdG9rZW4iLCJpYXQiOjE1MzAxNjU2NTYsImV4cCI6MTUzMDE2OTI1NiwibmJmIjoxNTMwMTY1NjU2LCJqdGkiOiIwSngwMTFZRlpXdlJaeTVUIiwic3ViIjoxLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.K4OjbqbA697QJf2fchKH2qJtT5ZmY0rp5F1HeFg2tXk",
+				"type": "bearer"
+			},
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"created": 1530166838156,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_4742f5e8029049508dcc64833218e06a",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529805624249.375,
+			"method": "DELETE",
+			"modified": 1530204907978,
+			"name": "Delete Post",
+			"parameters": [],
+			"parentId": "fld_6aa779130b3049b5bf87e51c00098251",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/posts/12",
+			"_type": "request"
+		}
+	]
+}
