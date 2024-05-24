@@ -1,0 +1,28 @@
+_id: req_2d727a3bd86a4b57ba4edbbc1961b726
+type: Request
+parentId: fld_56cc3eac676a4fd58ccc4ae79471169b
+modified: 1712526495889
+created: 1530166838156
+url: "{{ base_url  }}/api/posts/12"
+name: Delete Post
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - id: pair_4742f5e8029049508dcc64833218e06a
+    name: Content-Type
+    value: application/json
+authentication:
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3Nob3A0Y2hhcml0aWVzLm9yZy9hcGkvdG9rZW4iLCJpYXQiOjE3MTI1MjY0NjUsImV4cCI6MTcxMjUzMDA2NSwibmJmIjoxNzEyNTI2NDY1LCJqdGkiOiJhSk1UT3NPTmtLc3BpRVdKIiwic3ViIjoiMSIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.YagKZbfH497YWLHxmsraf2ZbPZLrhQs2rfnMsIHnjTo
+  type: bearer
+metaSortKey: -1529805624249.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

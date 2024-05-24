@@ -1,0 +1,27 @@
+_id: req_82129cb20aa04271b5e7bcb86e3beb38
+type: Request
+parentId: fld_d0800424ddf04f29b7036477f773bc40
+modified: 1712104783517
+created: 1530027044339
+url: "{{ base_url  }}/api/refresh"
+name: Refresh
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_84994d42f0c14aee8a4feeb6622496c6
+    name: ""
+    value: ""
+    description: ""
+authentication:
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC93YXZlLnRlc3RcL2FwaVwvbG9naW4iLCJpYXQiOjE1MzAwMjY5NDQsImV4cCI6MTUzMDAzMDU0NCwibmJmIjoxNTMwMDI2OTQ0LCJqdGkiOiJYTFNSa3lWcXBVUmpZMVptIiwic3ViIjoxLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.lMasPnUk1keooo64s38EY151GeOXMQTJIKUKxctdoCY
+  type: bearer
+metaSortKey: -1529781523857.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

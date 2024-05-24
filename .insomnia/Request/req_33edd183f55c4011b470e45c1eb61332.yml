@@ -1,0 +1,105 @@
+_id: req_33edd183f55c4011b470e45c1eb61332
+type: Request
+parentId: fld_56cc3eac676a4fd58ccc4ae79471169b
+modified: 1712526485990
+created: 1712510400191
+url: "{{ _.base_url }}/api/stores"
+name: New Store
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    			"id": null,
+    			"category_id": null,
+    			"program_name": "null",
+    			"program_url": "null",
+    			"description": "null",
+    			"image": "null",
+    			"featured": "null",
+    			"created_at": "null",
+    			"updated_at": "null",
+    			"deleted_at": null,
+    			"last_updated": null,
+    			"keywords": "null",
+    			"short_description": "null",
+    			"title": "null",
+    			"network_rating": null,
+    			"advertiser_id": null,
+    			"three_month_epc": "null",
+    			"seven_day_epc": "null",
+    			"date_created": "null",
+    			"has_products": null,
+    			"category": null,
+    			"country": "null",
+    			"advertiser_currency": "USD",
+    			"min_itemlevelfixed_lead_commission": 0,
+    			"max_itemlevelfixed_lead_commission": 0,
+    			"min_percent_lead_commission": "0.000000",
+    			"max_percent_lead_commission": "0.00",
+    			"min_percent_sale_commission": "0",
+    			"max_percent_sale_commission": "0",
+    			"min_itemlevelfixed_sale_commission": null,
+    			"max_itemlevelfixed_sale_commission": null,
+    			"max_orderlevelfixed_lead_commission": 0,
+    			"min_orderlevelfixed_lead_commission": 0,
+    			"max_orderlevelfixed_sale_commission": 0,
+    			"min_orderlevelfixed_sale_commission": 0,
+    			"max_viewthrough_itemlevelfixed_lead_commission": 0,
+    			"min_viewthrough_itemlevelfixed_lead_commission": 0,
+    			"min_viewthrough_percent_lead_commission": "0.000000",
+    			"max_viewthrough_percent_lead_commission": "0.000000",
+    			"max_viewthrough_itemlevelfixed_sale_commission": 0,
+    			"min_viewthrough_itemlevelfixed_sale_commission": 0,
+    			"max_viewthrough_percent_sale_commission": "0.00",
+    			"min_viewthrough_percent_sale_commission": "0.00",
+    			"max_viewthrough_orderlevelfixed_lead_commission": 0,
+    			"min_viewthrough_orderlevelfixed_lead_commission": 0,
+    			"max_viewthrough_orderlevelfixed_sale_commission": 0,
+    			"min_viewthrough_orderlevelfixed_sale_commission": 0,
+    			"fixed_click_commission": 0,
+    			"performance_incentive": 0,
+    			"search_campaigns_protected_sem_bidding_keywords": null,
+    			"negative_matching_for_protected_keywords": null,
+    			"search_campaigns_non_compete_sem_bidding_keywords": null,
+    			"search_campaigns_recommended_sem_bidding_keywords": null,
+    			"search_campaigns_prohibited_sem_display_url_content": null,
+    			"search_campaigns_limited_use_sem_display_url_content": null,
+    			"search_campaigns_prohibited_sem_ad_copy_content": null,
+    			"search_campaigns_limited_use_sem_ad_copy_content": null,
+    			"search_campaigns_direct_linking": 0,
+    			"search_campaigns_authorized_search_engines": null,
+    			"search_campaigns_special_instructions_for_search_marketing": "null",
+    			"web_site_prohibited_web_site_domain_keywords": null,
+    			"web_site_prohibited_web_site_url_keywords": null,
+    			"web_site_prohibited_web_site_content": null,
+    			"web_site_unacceptable_web_sites": null,
+    			"web_site_use_of_logos_and_trademarks_in_web_sites": null,
+    			"incentivized_traffic": 0,
+    			"email": 0,
+    			"software": 0,
+    			"sub_affiliates": 0,
+    			"social_media": 0,
+    			"coupons_and_promotions_codes": null,
+    			"non_commissionable_items": null,
+    			"viewthrough_campaigns": 0,
+    			"miscellaneous_special_instructions": null
+    		}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3Nob3A0Y2hhcml0aWVzLm9yZy9hcGkvdG9rZW4iLCJpYXQiOjE3MTI1MjY0NjUsImV4cCI6MTcxMjUzMDA2NSwibmJmIjoxNzEyNTI2NDY1LCJqdGkiOiJhSk1UT3NPTmtLc3BpRVdKIiwic3ViIjoiMSIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.YagKZbfH497YWLHxmsraf2ZbPZLrhQs2rfnMsIHnjTo
+metaSortKey: -1529878261770.1875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

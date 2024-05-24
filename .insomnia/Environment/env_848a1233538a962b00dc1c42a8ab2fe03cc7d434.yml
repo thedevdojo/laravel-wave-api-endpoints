@@ -1,0 +1,14 @@
+_id: env_848a1233538a962b00dc1c42a8ab2fe03cc7d434
+type: Environment
+parentId: wrk_0d85697a304645d5b209cf61b2b1f5f4
+modified: 1712526442030
+created: 1712103370425
+name: Base Environment
+data:
+  base_url: https://shop4charities.org/
+dataPropertyOrder:
+  "&":
+    - base_url
+color: null
+isPrivate: false
+metaSortKey: 1712103370425

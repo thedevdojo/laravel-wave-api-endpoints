@@ -1,0 +1,14 @@
+_id: env_c31725e55b2b44f39b4afa3b56ce6fa3
+type: Environment
+parentId: env_848a1233538a962b00dc1c42a8ab2fe03cc7d434
+modified: 1712526520965
+created: 1530204744903
+name: Development
+data:
+  base_url: https://shop4charities.org/
+dataPropertyOrder:
+  "&":
+    - base_url
+color: "#7d69cb"
+isPrivate: false
+metaSortKey: 1712103970567

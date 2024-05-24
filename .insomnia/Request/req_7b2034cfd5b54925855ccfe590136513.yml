@@ -1,0 +1,25 @@
+_id: req_7b2034cfd5b54925855ccfe590136513
+type: Request
+parentId: fld_56cc3eac676a4fd58ccc4ae79471169b
+modified: 1716581990690
+created: 1712510616323
+url: "{{ _.base_url }}api/stores?page=2"
+name: Read Store
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3Nob3A0Y2hhcml0aWVzLm9yZy9hcGkvdG9rZW4iLCJpYXQiOjE3MTY1ODE5MTMsImV4cCI6MTcxNjU4NTUxMywibmJmIjoxNzE2NTgxOTEzLCJqdGkiOiJSMXRLbzFZNDVHQkhUd3Q4Iiwic3ViIjoiMSIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.jUxzjuKLFUjO0niO0J-T7VBsJlffoBjCqrAiH7Bcnio
+metaSortKey: -1529894770286.2812
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

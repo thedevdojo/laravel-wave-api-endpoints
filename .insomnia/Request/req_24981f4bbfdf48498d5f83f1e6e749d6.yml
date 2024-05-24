@@ -1,0 +1,38 @@
+_id: req_24981f4bbfdf48498d5f83f1e6e749d6
+type: Request
+parentId: fld_d0800424ddf04f29b7036477f773bc40
+modified: 1530204929103
+created: 1529770630228
+url: "{{ base_url  }}/api/login"
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: ""
+parameters:
+  - disabled: false
+    id: pair_17e58c0d2c8d4dd48849391cdf359cb5
+    name: email
+    value: admin@admin.com
+  - disabled: false
+    id: pair_56dc0172d9d14100b93f4f8a1009fa05
+    name: password
+    value: password
+headers:
+  - id: pair_f060e5f8546640cd9250e4eeef8b6a45
+    name: Content-Type
+    value: application/json
+authentication:
+  disabled: false
+  password: ""
+  type: ntlm
+  username: ""
+metaSortKey: -1529770630228
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

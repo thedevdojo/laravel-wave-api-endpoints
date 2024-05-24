@@ -1,0 +1,24 @@
+_id: req_a443ac5c53b74f6aaaa32357056bf6b5
+type: Request
+parentId: fld_d0800424ddf04f29b7036477f773bc40
+modified: 1712966604908
+created: 1529898277868
+url: "{{ _.base_url }}api/token"
+name: API Token
+description: ""
+method: POST
+body: {}
+parameters:
+  - id: pair_5f7e1c14c1fe4992be71cdf7b7a90b59
+    name: key
+    value: Mm9Act2DMPkozi9B7UFW5WDC6P8kM6pWCyUMuCkimPKZl8FmjBljV72G9vdF
+headers: []
+authentication: {}
+metaSortKey: -1529792417486.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

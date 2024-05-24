@@ -1,0 +1,25 @@
+_id: req_4c26bdacae2c43b8bd50003809158421
+type: Request
+parentId: fld_56cc3eac676a4fd58ccc4ae79471169b
+modified: 1712526481526
+created: 1712103541910
+url: "{{ _.base_url }}/api/advertiser-category"
+name: Browse Store Categories
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3Nob3A0Y2hhcml0aWVzLm9yZy9hcGkvdG9rZW4iLCJpYXQiOjE3MTI1MjY0NjUsImV4cCI6MTcxMjUzMDA2NSwibmJmIjoxNzEyNTI2NDY1LCJqdGkiOiJhSk1UT3NPTmtLc3BpRVdKIiwic3ViIjoiMSIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.YagKZbfH497YWLHxmsraf2ZbPZLrhQs2rfnMsIHnjTo
+metaSortKey: -1529891468583.0625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

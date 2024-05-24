@@ -1,0 +1,38 @@
+_id: req_2da3cd0c2785476c8cf1c250604cc5c8
+type: Request
+parentId: fld_56cc3eac676a4fd58ccc4ae79471169b
+modified: 1712526493028
+created: 1530146770851
+url: "{{ base_url  }}/api/posts"
+name: Add Post
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    { 
+    	"author_id" : 1,
+    	"category_id" : 1,
+    	"title" : "My Awesome Title",
+    	"body" : "<h2>My Awesome Post</h2><p>Hey there, this is an example of howo to use the Wave API to insert a sample post using the built-in API</p><p>Thanks for checkout out the API sample",
+    	"image" : "posts/March2018/sample-image.png",
+    	"slug" : "awesome-post",
+    	"featured" : 0,
+    	"status" : "PUBLISHED"
+    }
+parameters: []
+headers:
+  - id: pair_077ed211ac174d5ca8919bf87648f6a6
+    name: Content-Type
+    value: application/json
+authentication:
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3Nob3A0Y2hhcml0aWVzLm9yZy9hcGkvdG9rZW4iLCJpYXQiOjE3MTI1MjY0NjUsImV4cCI6MTcxMjUzMDA2NSwibmJmIjoxNzEyNTI2NDY1LCJqdGkiOiJhSk1UT3NPTmtLc3BpRVdKIiwic3ViIjoiMSIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.YagKZbfH497YWLHxmsraf2ZbPZLrhQs2rfnMsIHnjTo
+  type: bearer
+metaSortKey: -1529805624299.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

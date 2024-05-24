@@ -1,0 +1,39 @@
+_id: req_264dbdd239df4e609b1aebdbfdc9e851
+type: Request
+parentId: fld_d0800424ddf04f29b7036477f773bc40
+modified: 1712106223933
+created: 1530028172776
+url: "{{ base_url  }}/api/register"
+name: Register
+description: ""
+method: POST
+body: {}
+parameters:
+  - id: pair_cd787e08893c4cd1b5ec572240f40c2d
+    name: name
+    value: Mike Jones
+    description: The Users name
+  - id: pair_8f864b705b9844268cb9876b8f67cd5b
+    name: username
+    value: mikejones
+    description: The users USERNAME
+  - id: pair_6910d13cbd8e432899db8c8e98dd2e48
+    name: email
+    value: mike@gmail.com
+    description: The users EMAIL
+  - id: pair_0d6ba3fb5c1d4281990b2c76e6a9c02f
+    name: password
+    value: password
+    description: The users PASSWORD
+headers: []
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3Nob3A0Y2hhcml0aWVzLm9yZy9hcGkvdG9rZW4iLCJpYXQiOjE3MTIxMDQyMzEsImV4cCI6MTcxMjEwNzgzMSwibmJmIjoxNzEyMTA0MjMxLCJqdGkiOiJZbTdObDJiQXhTRHBlYlRRIiwic3ViIjoiMSIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.TvydmFZlpZaZO1lC5uLNgSglYXW8E8FG9VdhMoYbhuw
+metaSortKey: -1529770630128
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

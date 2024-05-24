@@ -1,0 +1,23 @@
+_id: req_2cdbe40754ce4911b41ebb6d0996d339
+type: Request
+parentId: fld_d0800424ddf04f29b7036477f773bc40
+modified: 1530204934580
+created: 1530026892027
+url: "{{ base_url  }}/api/logout"
+name: Logout
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC93YXZlLnRlc3RcL2FwaVwvbG9naW4iLCJpYXQiOjE1MzAwMjc3NzksImV4cCI6MTUzMDAzMTM3OSwibmJmIjoxNTMwMDI3Nzc5LCJqdGkiOiJwUzJvM29LZVNZTEFpUkZjIiwic3ViIjoxLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.uOdniNPXNT-XWyGlenetBjpUcki705QPfM3BzOXfhdM
+  type: bearer
+metaSortKey: -1529770630178
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

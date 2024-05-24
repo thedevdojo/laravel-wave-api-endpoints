@@ -1,0 +1,105 @@
+_id: req_f35d7158935e41479cd95c26b1b71f28
+type: Request
+parentId: fld_56cc3eac676a4fd58ccc4ae79471169b
+modified: 1712966623201
+created: 1712170272166
+url: "{{ _.base_url }}api/stores/206"
+name: Edit Stores
+description: "This is the Edit Stores PUT method. "
+method: PUT
+body:
+  mimeType: application/json
+  text: >-
+    {
+    			"id": 206,
+    			"category_id": 2,
+    			"program_name": "Winebasket",
+    			"program_url": "https://www.anrdoezrs.net/click-100813069-11554449?sid=33&url=https%3A%2F%2Fwww.winebasket.com%2F",
+    			"description": "Winebasket.com/Babybasket.com/Capalbosonline.com (Capalbos Gift Baskets) is a family owned and operated business, large enough to handle orders for hundreds of baskets at a time, yet small enough to customize any order. Operating out of a 30,000 sq. ft. facility in NJ, we design and hand-make an extensive array of gift baskets, all beautifully presented in a variety of styles and colors.",
+    			"image": "Wine-Basket-Logo.png",
+    			"featured": 1,
+    			"created_at": "2024-02-01T10:58:47.000000Z",
+    			"updated_at": "2024-02-01T10:58:47.000000Z",
+    			"deleted_at": null,
+    			"last_updated": null,
+    			"keywords": "wine, red wind, white wine, sparkling wine",
+    			"short_description": "Providing concierge-style service to ALL our customers (small or large). Allowing the consumer to save '5%' upon registering as a Member! And a Rewards Points Program, where consumers can earn free baskets with their reward points. Carefully hand-selecting unique and distinctive items for our baskets from hundreds of sources.",
+    			"title": "M&M Wine Corp",
+    			"network_rating": null,
+    			"advertiser_id": 2387081,
+    			"three_month_epc": "24.72",
+    			"seven_day_epc": "26.58",
+    			"date_created": "2023-03-26",
+    			"has_products": 1,
+    			"category": "gifts",
+    			"country": "UNITED STATES",
+    			"advertiser_currency": "USD",
+    			"min_itemlevelfixed_lead_commission": 0,
+    			"max_itemlevelfixed_lead_commission": 0,
+    			"min_percent_lead_commission": "0.000000",
+    			"max_percent_lead_commission": "0.00",
+    			"min_percent_sale_commission": "0",
+    			"max_percent_sale_commission": "0",
+    			"min_itemlevelfixed_sale_commission": null,
+    			"max_itemlevelfixed_sale_commission": null,
+    			"max_orderlevelfixed_lead_commission": 0,
+    			"min_orderlevelfixed_lead_commission": 0,
+    			"max_orderlevelfixed_sale_commission": 0,
+    			"min_orderlevelfixed_sale_commission": 0,
+    			"max_viewthrough_itemlevelfixed_lead_commission": 0,
+    			"min_viewthrough_itemlevelfixed_lead_commission": 0,
+    			"min_viewthrough_percent_lead_commission": "0.000000",
+    			"max_viewthrough_percent_lead_commission": "0.000000",
+    			"max_viewthrough_itemlevelfixed_sale_commission": 0,
+    			"min_viewthrough_itemlevelfixed_sale_commission": 0,
+    			"max_viewthrough_percent_sale_commission": "0.00",
+    			"min_viewthrough_percent_sale_commission": "0.00",
+    			"max_viewthrough_orderlevelfixed_lead_commission": 0,
+    			"min_viewthrough_orderlevelfixed_lead_commission": 0,
+    			"max_viewthrough_orderlevelfixed_sale_commission": 0,
+    			"min_viewthrough_orderlevelfixed_sale_commission": 0,
+    			"fixed_click_commission": 0,
+    			"performance_incentive": 0,
+    			"search_campaigns_protected_sem_bidding_keywords": null,
+    			"negative_matching_for_protected_keywords": null,
+    			"search_campaigns_non_compete_sem_bidding_keywords": null,
+    			"search_campaigns_recommended_sem_bidding_keywords": null,
+    			"search_campaigns_prohibited_sem_display_url_content": null,
+    			"search_campaigns_limited_use_sem_display_url_content": null,
+    			"search_campaigns_prohibited_sem_ad_copy_content": null,
+    			"search_campaigns_limited_use_sem_ad_copy_content": null,
+    			"search_campaigns_direct_linking": 0,
+    			"search_campaigns_authorized_search_engines": null,
+    			"search_campaigns_special_instructions_for_search_marketing": null,
+    			"web_site_prohibited_web_site_domain_keywords": null,
+    			"web_site_prohibited_web_site_url_keywords": null,
+    			"web_site_prohibited_web_site_content": null,
+    			"web_site_unacceptable_web_sites": null,
+    			"web_site_use_of_logos_and_trademarks_in_web_sites": null,
+    			"incentivized_traffic": 0,
+    			"email": 0,
+    			"software": 0,
+    			"sub_affiliates": 0,
+    			"social_media": 0,
+    			"coupons_and_promotions_codes": null,
+    			"non_commissionable_items": null,
+    			"viewthrough_campaigns": null,
+    			"miscellaneous_special_instructions": null
+    		}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3Nob3A0Y2hhcml0aWVzLm9yZy9hcGkvdG9rZW4iLCJpYXQiOjE3MTI5NjY2MDYsImV4cCI6MTcxMjk3MDIwNiwibmJmIjoxNzEyOTY2NjA2LCJqdGkiOiI1VXhReTY3Q3AwaHBkRDJxIiwic3ViIjoiMSIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.Lrt1Eyv6mWekBk1ZeCg40N2mQH-D2J1Vcq8p6keWEc0
+metaSortKey: -1529884865176.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
